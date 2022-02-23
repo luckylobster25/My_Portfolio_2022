@@ -2,20 +2,28 @@ const { Painting } = require('../models');
 
 const paintingdata = [
   {
-    title: 'Blossoming Apricot',
-    artist: 'LedyX',
+    title: 'Weather App',
+    artist: 'https://luckylobster25.github.io/weather/',
     exhibition_date: 'March 30, 2018',
     gallery_id: 1,
-    filename: '01-blossoming-apricot.jpg',
+    filename: 'weather_app.png',
     description:
       'Branches with pink apricot blossoms against a blue background.',
   },
   {
-    title: 'Cosmos Flowers',
-    artist: 'WStudio',
+    title: 'MTT Tech-Blog',
+    artist: 'https://thawing-peak-67886.herokuapp.com/',
     exhibition_date: 'May 05, 2017',
     gallery_id: 1,
-    filename: '02-cosmos-flowers.jpg',
+    filename: 'tech-blog.png',
+    description: 'Pink cosmos flowers against a blue sky.',
+  },
+  {
+    title: 'ACH Game Reviews',
+    artist: 'https://mighty-beyond-89277.herokuapp.com/',
+    exhibition_date: 'May 05, 2017',
+    gallery_id: 1,
+    filename: 'game_review.png',
     description: 'Pink cosmos flowers against a blue sky.',
   },
   {
