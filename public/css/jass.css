@@ -385,6 +385,8 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+  text-align: center;
+  padding-top: 25px;
 }
 
 h5 {
@@ -393,6 +395,8 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
 }
 
 p {

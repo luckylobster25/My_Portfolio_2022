@@ -1,7 +1,7 @@
 :root {
-  --primary: #3d5852;
+  --primary: #042341;
   --secondary: #86938f;
-  --tertiary: #5e877f;
+  --tertiary: #00091a;
   --quatrinary: #6c6b67;
   --light: #e3e4e3;
   --dark: #182c23;
@@ -32,6 +32,7 @@ header {
   padding: 40px;
   text-align: center;
   background: var(--primary);
+  background-image: linear-gradient(90deg, rgb(3, 5, 29), rgb(0, 0, 65), rgb(0, 11, 46));
   color: var(--light);
 }
 
@@ -42,9 +43,10 @@ main {
 }
 
 aside {
-  flex: 0;
+  flex: 1;
   background-color: var(--tertiary);
-  padding: 80px;
+  background-image: linear-gradient(180deg, rgb(1, 2, 8), rgb(1, 1, 36), rgb(0, 11, 46));
+  padding: 20px;
   text-align: left;
   color: var(--light);
 }
