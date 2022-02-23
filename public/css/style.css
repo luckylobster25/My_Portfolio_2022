@@ -4,7 +4,7 @@
   --tertiary: #00091a;
   --quatrinary: #6c6b67;
   --light: #e3e4e3;
-  --dark: #182c23;
+  --dark: #0e225f;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
 }
@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   justify-content: flex-start;
   background-color: var(--quatrinary);
+  background-image: linear-gradient(180deg, rgb(1, 54, 138),rgb(30, 78, 149), rgb(118, 164, 248), white);
 }
 
 a {
@@ -54,6 +55,7 @@ aside {
 nav {
   display: flex;
   background-color: var(--secondary);
+  background-image: linear-gradient(45deg,white, rgb(77, 138, 231),rgb(68, 144, 216), white);
 }
 
 nav a {
@@ -70,7 +72,7 @@ nav a:hover {
 
 .gallery {
   flex: 4;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 50px;
   display: flex;
   flex-flow: column wrap;
