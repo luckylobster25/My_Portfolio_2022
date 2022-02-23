@@ -69,7 +69,9 @@ nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
 }
-
+.project-discription {
+  padding-top: 15px;
+}
 .gallery {
   flex: 4;
   /* background-color: #fff; */

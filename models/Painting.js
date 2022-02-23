@@ -20,7 +20,7 @@ Painting.init(
       allowNull: false,
     },
     exhibition_date: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     filename: {

@@ -4,7 +4,7 @@ const paintingdata = [
   {
     title: 'Weather App',
     artist: 'https://luckylobster25.github.io/weather/',
-    exhibition_date: 'March 30, 2018',
+    exhibition_date: 'This is my weather application using a third party api for weather data. This application was one of the few homeworks in the early stage of class.',
     gallery_id: 1,
     filename: 'weather_app.png',
     description:
@@ -13,7 +13,7 @@ const paintingdata = [
   {
     title: 'MTT Tech-Blog',
     artist: 'https://thawing-peak-67886.herokuapp.com/',
-    exhibition_date: 'May 05, 2017',
+    exhibition_date: 'This is one of my most recent class homework. It is a full stack web application with user log in.',
     gallery_id: 1,
     filename: 'tech-blog.png',
     description: 'Pink cosmos flowers against a blue sky.',
@@ -21,7 +21,7 @@ const paintingdata = [
   {
     title: 'ACH Game Reviews',
     artist: 'https://mighty-beyond-89277.herokuapp.com/',
-    exhibition_date: 'May 05, 2017',
+    exhibition_date: 'This is one of my group project along with my two other classmates. It is a full stack web application with front and back end codes.',
     gallery_id: 1,
     filename: 'game_review.png',
     description: 'Pink cosmos flowers against a blue sky.',

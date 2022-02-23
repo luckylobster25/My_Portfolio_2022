@@ -16,11 +16,11 @@ Gallery.init(
       allowNull: false,
     },
     starting_date: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     ending_date: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
     },
   },
