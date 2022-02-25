@@ -1311,7 +1311,9 @@ form [type='radio'] {
   flex: 0 0 66.66667%;
   max-width: 66.66667%;
 }
-
+.description-text {
+  font-size: 14px;
+}
 .col-9 {
   flex: 0 0 75%;
   max-width: 75%;

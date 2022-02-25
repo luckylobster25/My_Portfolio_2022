@@ -110,7 +110,11 @@ img {
   padding: 10px 20px;
   font-weight: bold;
 }
-
+.discription-box {
+  background: #5672c5;
+  padding: 5px;
+  margin-top: 10px;
+}
 /* CARDS */
 .card {
   margin: 20px;

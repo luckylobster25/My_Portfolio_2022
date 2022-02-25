@@ -19,6 +19,10 @@ Painting.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    // link2: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
     exhibition_date: {
       type: DataTypes.STRING,
       allowNull: false,
