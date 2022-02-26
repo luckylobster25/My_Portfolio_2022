@@ -15,14 +15,6 @@ Gallery.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    starting_date: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    ending_date: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
   },
   {
     sequelize,
