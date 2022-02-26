@@ -115,6 +115,12 @@ img {
   padding: 5px;
   margin-top: 10px;
 }
+.linkbox {
+  border-radius: 10%;
+  background-color: #1336a0;
+  color: #e3e4e3;
+  padding: 5px;
+}
 /* CARDS */
 .card {
   margin: 20px;

@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const res = require('express/lib/response');
 const { Gallery, Painting } = require('../models');
 
 // GET all galleries for homepage
@@ -8,7 +9,7 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: Painting,
-          attributes: ['filename', 'description'],
+          attributes: ['filename', 'optional'],
         },
       ],
     });
@@ -52,7 +53,7 @@ router.get('/gallery/:id', async (req, res) => {
             'link',
             'textBox',
             'filename',
-            'description',
+            'optional',
           ],
         },
       ],
@@ -89,5 +90,4 @@ router.get('/painting/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
-
 module.exports = router;

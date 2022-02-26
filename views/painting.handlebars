@@ -3,17 +3,18 @@
 <section class="container">
   <h3>Number of times you've visited the homepage: {{countVisit}}</h3>
   <section class="painting">
-    <img src="/images/{{painting.filename}}" alt="{{painting.description}}">
+    <img src="/images/{{painting.filename}}" alt="{{painting.optional}}">
     <div class="painting-details">
       <h3>{{painting.title}}</h3>
       <ul>
-        <li><a href="{{painting.link}}">{{painting.link}}</a></li>
-        <li><a href="{{painting.description}}">{{painting.description}}</a></li>
+        <li><span class="linkbox">LINK #1</span> <a href="{{painting.link}}">{{painting.link}}</a></li>
+        <li><span class="linkbox">LINK #2</span> <a href="{{painting.optional}}">{{painting.optional}}</a></li>
       </ul>
       <div class="discription-box">
-        <p class="project-discription">Description: <span class="description-text">{{painting.textBox}}</span>
+        <p class="project-discription"><span class="description-text">{{painting.textBox}}</span>
         </p>
       </div>
+        <a href="#" onclick="">Click here to download resume</a>
     </div>
   </section>
 </section>

@@ -27,9 +27,9 @@ Painting.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    optional: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     gallery_id: {
       type: DataTypes.INTEGER,
