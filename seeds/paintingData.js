@@ -1,7 +1,7 @@
 const { Painting } = require('../models');
 
 const resumeDoc = function(){
-  return `This should be working now!`
+  return `Email: chuechang.full.stack.developer@gmail.com`
 }
 const paintingdata = [
   // Project seed --- start
@@ -64,22 +64,31 @@ const paintingdata = [
   // **********************************************
   // about me --- start
   {
-    title: 'Frozen River',
-    link: 'Vlad Sokolovsky',
-    textBox: 'December 24, 2020',
+    title: 'Hiking',
+    link: 'https://www.alltrails.com/us/minnesota',
+    textBox: 'I like to hike and travel around the united states. ',
     gallery_id: 4,
-    filename: '08-frozen-river.jpg',
+    filename: 'hiking.JPEG',
     optional:
-      'Trees with white frozen branches reflected on a frozen river against a light pink sky.',
+      '',
   },
   {
-    title: 'Winter Home',
-    link: 'Smit',
-    textBox: 'January 20, 2018',
+    title: 'League Of Legend',
+    link: 'https://www.leagueoflegends.com/en-us/',
+    textBox: 'League of Legend or "LOL" is one of my favorite game of all time.',
     gallery_id: 4,
-    filename: '09-winter-home.jpg',
+    filename: 'leagueoflegend.jpg',
     optional:
-      'Log cabin blanketed in heavy white snow with tall snow covered pine trees in the background.',
+      '',
+  },
+  {
+    title: 'Gardening',
+    link: 'https://www.miraclegro.com/en-us/library/gardening-basics/10-top-gardening-tips-beginners',
+    textBox: 'During spring and summer, I love to plant flowers and vegatables around the house.',
+    gallery_id: 4,
+    filename: 'gardening.JPEG',
+    optional:
+      '',
   },
 ];
 // about me --- end

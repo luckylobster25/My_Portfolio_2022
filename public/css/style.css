@@ -121,6 +121,9 @@ img {
   color: #e3e4e3;
   padding: 5px;
 }
+.listlink {
+  text-align: left;
+}
 /* CARDS */
 .card {
   margin: 20px;
