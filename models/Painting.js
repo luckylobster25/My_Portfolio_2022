@@ -15,11 +15,11 @@ Painting.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    artist: {
+    link: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    exhibition_date: {
+    textBox: {
       type: DataTypes.STRING,
       allowNull: false,
     },
