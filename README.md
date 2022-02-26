@@ -1,6 +1,7 @@
 # 💎My Portfolio 2022💎
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)  
-[Live-link to Heroku]()
+[Live-link to Heroku]()  
+![Screenshot of Web Application](public/images/overview.jpg)
 ## 📝 Table of Content
 *[Introduction](#introduction)  
 *[Installation](#installation)  
