@@ -156,7 +156,12 @@ img {
   padding: 0.625rem;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
-
+.butterfly {
+  opacity: 14%;
+    position: absolute;
+    top: 0;
+    width: 130px;
+}
 .card-body {
   font-size: 1.4rem;
   text-align: center;
@@ -164,14 +169,16 @@ img {
 }
 
 .gallery-name {
+  background-image: linear-gradient(45deg, #1f2230, #0095ff, transparent);
   text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 2px 2px 5px var(--secondary);
-  border: 10px groove var(--light);
+  border: 10px groove #0e74d9;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 100px;
   padding-left: 100px;
+  color: rgb(208, 216, 240);
 }
 
 /* LAYOUT */
