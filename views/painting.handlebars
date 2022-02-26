@@ -6,9 +6,13 @@
     <img src="/images/{{painting.filename}}" alt="{{painting.description}}">
     <div class="painting-details">
       <h3>{{painting.title}}</h3>
-      <a href="{{painting.artist}}">{{painting.artist}}</a>
+      <ul>
+        <li><a href="{{painting.artist}}">{{painting.artist}}</a></li>
+        <li><a href="{{painting.description}}">{{painting.description}}</a></li>
+      </ul>
       <div class="discription-box">
-      <p class="project-discription">Description: <span class="description-text">{{painting.exhibition_date}}</span></p>
+        <p class="project-discription">Description: <span class="description-text">{{painting.exhibition_date}}</span>
+        </p>
       </div>
     </div>
   </section>

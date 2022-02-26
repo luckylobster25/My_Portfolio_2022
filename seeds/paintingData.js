@@ -7,8 +7,7 @@ const paintingdata = [
     exhibition_date: 'This is my weather application using a third party api for weather data. This application was one of the few homeworks in the early stage of class.',
     gallery_id: 1,
     filename: 'weather_app.png',
-    description:
-      'Branches with pink apricot blossoms against a blue background.',
+    description:'https://github.com/luckylobster25/weather',
   },
   {
     title: 'MTT Tech-Blog',
@@ -16,7 +15,7 @@ const paintingdata = [
     exhibition_date: 'This is one of my most recent class homework. It is a full stack web application with user log in.',
     gallery_id: 1,
     filename: 'tech-blog.png',
-    description: 'Pink cosmos flowers against a blue sky.',
+    description: 'https://github.com/luckylobster25/Tech-Blog',
   },
   {
     title: 'ACH Game Reviews',
@@ -24,7 +23,7 @@ const paintingdata = [
     exhibition_date: 'This is one of my group project along with my two other classmates. It is a full stack web application with front and back end codes.',
     gallery_id: 1,
     filename: 'game_review.png',
-    description: 'Pink cosmos flowers against a blue sky.',
+    description: 'https://github.com/luckylobster25/Project_2',
   },
   {
     title: 'Sand + Sea = Summer',
